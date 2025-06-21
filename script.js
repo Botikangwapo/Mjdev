@@ -1,5 +1,4 @@
 const toggle = document.getElementById('toggle');
-const menuToggle = document.getElementById('menu-toggle');
 const toggleBtn = document.getElementById('toggle-dark');
 const prefersDark = localStorage.getItem('dark-mode') === 'enabled';
 

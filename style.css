@@ -87,7 +87,7 @@ body, html{
   
  }
 
-.fas{
+#color{
  color: #f1a20e;
 }
 
@@ -780,10 +780,15 @@ body.dark-mode .container {
   color: #f0f0f0;
 }
 
+body.dark-mode a{
+ 
+}
+
 body.dark-mode .nav-links {
   opacity: 0;
   background: rgba(0, 0, 0, 0);
   color: white;
+   -webkit-backdrop-filter: blur(15px); /* Safari support */
 }
 body.dark-mode .navbar{
    background: rgba(0, 0, 0, 0.2); /* dark translucent background */
@@ -1294,4 +1299,12 @@ flex-direction: row;
 
 }
 
-                         
+  .no-copy {
+    pointer-events: none;
+    user-select: none;
+  }
+
+  img.no-drag {
+    -webkit-user-drag: none;
+    user-drag: none;
+  }

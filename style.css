@@ -1248,6 +1248,11 @@ ul{
   display: flex;
 }
 
+  .img-boxing img{
+  object-fit: cover;
+}
+
+
 }
 
 

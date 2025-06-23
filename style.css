@@ -254,7 +254,6 @@ height: 300px;
 .img-box {
   background: white;
   height: 100%;
-  border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   width: 100%;
   max-width: 800px;
@@ -262,6 +261,8 @@ height: 300px;
 
 .img-box img{
   object-fit: cover;
+    border-top-left-radius:  10px;
+  border-top-right-radius:  10px;
 }
 
 
@@ -465,11 +466,6 @@ span{
   gap: 30px;
 }
 
-.texting{
-  text-align: center;
-}
-
-
 .img-boxing {
   height: 350px;
   width: 100%;
@@ -495,6 +491,9 @@ span{
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   padding: 2rem;
+}
+.texting{
+  text-align: center;
 }
 
 
@@ -889,12 +888,15 @@ body.dark-mode .slogan,
 body.dark-mode .name,
 body.dark-mode .text-box,
 body.dark-mode .img-box,
-body.dark-mode .social-icons,
 body.dark-mode .descrip,
 body.dark-mode .about-profile {
   background-color:   #05083e;
   color: #fff;
    box-shadow: 0 0 20px rgba(255, 255, 255, 0.12);
+}
+
+body.dark-mode .social-icons{
+   background-color:   #05083e;
 }
 
 body.dark-mode .logo i,

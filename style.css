@@ -494,7 +494,10 @@ span{
 }
 
 
-
+.about-text div{
+  font-size: 15px;
+  padding-bottom: 2rem;
+}
 
 
 .header-skills{

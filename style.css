@@ -23,7 +23,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #090227;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -822,14 +822,14 @@ h1{
 /* dark mode*/
 
 body.dark-mode {
-  background-color: #090227;
+  background-color:  #030530;
   color: #f0f0f0;
 }
 
 
 
 body.dark-mode nav {
-  background-color: #090227;
+  background-color: #040740;
   color: white;
    box-shadow: 0 0 20px rgba(255, 255, 255, 0.12);
 }
@@ -847,7 +847,11 @@ body.dark-mode .contact-img img {
 body.dark-mode .Jervin,
 body.dark-mode .tag,
 body.dark-mode .header-about{
-     background-color: #090227;
+     background-color:  #030530;
+}
+
+body.dark-mode #loader-wrapper{
+    background-color:  #030530;
 }
 
 body.dark-mode .imagess img{
@@ -858,14 +862,14 @@ body.dark-mode .imagess img{
 body.dark-mode .about-text,
 body.dark-mode .card{
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.12);
-   background-color: #090227;
+   background-color:  #030530;
   color: #fff;
 }
 
 
 body.dark-mode .a{
   background-color: white;
-  color: #090227;
+  color:  #030530;
 
 }
 
@@ -882,7 +886,7 @@ body.dark-mode .social-icons,
 body.dark-mode .descrip,
 body.dark-mode nav ul,
 body.dark-mode .about-profile {
-  background-color:  #090227;
+  background-color:   #030530;
   color: #fff;
    box-shadow: 0 0 20px rgba(255, 255, 255, 0.12);
 }
@@ -895,7 +899,7 @@ body.dark-mode #nav-links a {
 
 
 body.dark-mode .header-skills{
-   background-color: #090227;
+   background-color:  #030530;
 }
 body.dark-mode #nav-links a.active {
   color: #ff9900;
@@ -919,7 +923,7 @@ body.dark-mode .social-icons a:hover {
 }
 
 body.dark-mode .container {
-  background-color: #090227;
+  background-color: #030530;
   color: #f0f0f0;
 }
 
@@ -945,7 +949,7 @@ body.dark-mode footer{
 }
 body.dark-mode .Jervin,
 body.dark-mode .intro{
-  background-color: #090227;
+  background-color:  #030530;
   color: #f0f0f0; 
 }
 
@@ -973,11 +977,11 @@ body.dark-mode ul a{
 }
 
 body.dark-mode .img-boxing {
-  background-color: #090227;
+  background-color:  #030530;
 }
 
 body.dark-mode footer{
-  background-color: #090227;
+  background-color:  #030530;
 }
 
 /* MOBILE PHONR MEDIA */

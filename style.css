@@ -465,6 +465,11 @@ span{
   gap: 30px;
 }
 
+.texting{
+  text-align: center;
+}
+
+
 .img-boxing {
   height: 350px;
   width: 100%;

@@ -110,6 +110,7 @@ body, html{
   overflow: hidden;
   transition: height 1s ease;
   z-index: 999;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .navbar.open {

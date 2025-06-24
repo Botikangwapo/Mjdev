@@ -1109,18 +1109,19 @@ body.dark-mode footer{
     align-items: center;
     text-align: center;
     height: 6px;
-    width: 164px;
+    width: 50%;
 
   }
 
  .cons{
     height: auto;
-    width: 163px;
+    width: 50%;
   }
   .social-icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 100%
   }
 
 }

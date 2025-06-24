@@ -267,7 +267,8 @@ height: 300px;
   object-fit: cover;
   border-bottom-left-radius:  0;
   border-bottom-right-radius:  0;
-
+    display: block; /* Removes space below img caused by inline display */
+  margin: 0;
 }
 
 .cons{
@@ -281,6 +282,16 @@ height: 300px;
     height: auto;
 }
 
+.cons, .dw {
+  width: 50%;
+}
+
+.dl{
+    padding: 0;
+  margin: 0;
+}
+
+
 .dw{
   background-color: #f1a20e;
   padding: 1.5rem;
@@ -290,7 +301,8 @@ height: 300px;
 }
 
 .social-icons {
-  padding: 0%;
+    padding: 0;
+  margin: 0;
   font-size: 1.3em;
   width: 100%;
   text-align: center;

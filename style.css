@@ -296,7 +296,12 @@ height: 300px;
 }
 
 
+
 .dw{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
   background-color: #f1a20e;
   padding: 1.5rem;
   width: 400px;
@@ -331,7 +336,6 @@ height: 300px;
   transform: translateY(-8px); 
   transition:  0.5s ease;
 }
-
 
 .social-icons i{
   transition:  0.5s ease;
@@ -890,10 +894,10 @@ body.dark-mode {
 }
 
 body.dark-mode .dw .dl{
-  color: black;
+  color: white;
 }
 body.dark-mode .dw .dl:hover{
-  color: white;
+  color: black;
 }
 
 

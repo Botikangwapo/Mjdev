@@ -889,6 +889,12 @@ body.dark-mode {
   color: #f0f0f0;
 }
 
+body.dark-mode .dw .dl{
+  color: black;
+}
+body.dark-mode .dw .dl:hover{
+  color: white;
+}
 
 
 body.dark-mode nav {
